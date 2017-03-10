@@ -22,7 +22,7 @@ namespace TaskerWindowsService.Infrastructure
                 TaskName = TaskNames.SendEmail,
                 Parameters = JsonConvert.SerializeObject(new SendEmailParams()
                 {
-                    EmailRecipient = "kostyrin2@gmail.com",
+                    EmailRecipient = "test2@test.com",
                     EmailSubject = "Some subject",
                     EmailText = "Some Text"
                 }),
